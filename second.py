@@ -19,3 +19,6 @@ for c in a:
     for j in range(3):
         s+=c[j]*b[j]
 print("总和为：",s)
+
+s2=input("please input a string:")
+print("{:=^15}".format(s[0:15]))
