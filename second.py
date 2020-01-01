@@ -21,4 +21,4 @@ for c in a:
 print("总和为：",s)
 
 s2=input("please input a string:")
-print("{:=^15}".format(s[0:15]))
+print("{:=^15}".format(s2[0:15]))
