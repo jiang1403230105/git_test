@@ -22,3 +22,9 @@ print("总和为：",s)
 
 s2=input("please input a string:")
 print("{:=^15}".format(s2[0:15]))
+
+a,b=0,1
+while a<=100:
+    print(a,end=',')
+    a,b=b,a+b
+
